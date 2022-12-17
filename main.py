@@ -31,7 +31,7 @@ def getIp():
 
 
 def genxtt5():
-    global succes, failed, log
+    global succes, failed
     #->> Checking Files
     try:
         log = open('record.txt', 'r').read()
